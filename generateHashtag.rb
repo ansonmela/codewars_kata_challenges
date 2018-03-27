@@ -13,6 +13,9 @@
 
 # " Hello World " => "#HelloWorld"
 
+# all tests passing
+# post red/green/refactor cycle solution shown below
+
 def generateHashtag(s)
   s = s.gsub(/\w+/, &:capitalize).chars
 
